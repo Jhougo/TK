@@ -28,7 +28,7 @@ class GUIDemo(Frame):
 		Frame.__init__(self, master)
 		self.grid()
 		self.createWidgets()
-		
+
 	def createWidgets(self):
 		self.inputText = Label(self)
 		self.inputText["text"] = "Input:"
